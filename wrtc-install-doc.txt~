@@ -1,0 +1,59 @@
+to install the wrtc package, this was done:
+
+1. mkdir realtimeCLI && cd realtimeCLI
+2. npm init
+3. npm install wrtc
+4. npm install express
+5. npm install express-browserify
+6. npm install tape
+7. npm install ws
+
+then try some stuff suggested on the wrtc github
+
+pasting raw shell command history
+
+ 1043  npm init
+ 1044  npm install wrtc
+ 1045  cat package-lock.json
+ 1046  clear
+ 1047  cd node_modules/wrtc
+ 1048  npm test
+ 1049  cd ../../
+ 1050  npm install tape
+ 1051  history
+ 1052  history | grep npm install
+ 1053  history | grep 'npm install'
+ 1054  cd node_modules/wrtc
+ 1055  l
+ 1056  npm test
+ 1057  clear
+ 1058  l
+ 1059  l node_modules
+ 1060  cd ..
+ 1061  l -T
+ 1062  l -T | grep node_modules
+ 1063  cd ..
+ 1064  l
+ 1065  cat package.json
+ 1066  cd node_modules/wrtc
+ 1067  l
+ 1068  node examples/bridge.js
+ 1069  cd ..
+ 1070  node install express
+ 1071  npm install express
+ 1072  cd node_modules/wrtc
+ 1073  node examples/bridge.js
+ 1074  cd ..
+ 1075  npm install express-browserify
+ 1076  l
+ 1077  cd node_modules
+ 1078  cd wrtc
+ 1079  node examples/bridge.js
+ 1080  cd ../../
+ 1081  npm install ws
+ 1082  cd node_modules/wrtc
+ 1083  l
+ 1084  node examples/bridge.js
+ 1085  node examples/ping-pong-test.js
+ 1086  cd ../../
+ 1087  l

@@ -1,0 +1,18 @@
+{
+  "name": "realtimecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Siefkas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-browserify": "^1.0.2",
+    "tape": "^4.8.0",
+    "wrtc": "0.0.65",
+    "ws": "^4.0.0"
+  }
+}
